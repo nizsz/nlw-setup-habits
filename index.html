@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!---Preconnect-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Habits</title>
+    <!--Links-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js" defer></script>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits" />
+
+      <button>
+        <img src="./assets/plus.svg" alt="Ícone de um sinal de mais (+)" />
+        <div>
+          Registrar o meu dia
+        </div>
+      </button>
+    </header>
+
+    <form >
+      <div class="habits">
+        <div class="habit" data-name="run">🏃🏻‍♂️</div>
+        <div class="habit" data-name="water">💧</div>
+        <div class="habit" data-name="food">🍎</div>
+        <div class="habit" data-name="stronge">💪🏻</div>
+        <div class="habit" data-name="books">📗</div>
+      </div>
+
+      <div class="days"></div>
+    </form>
+    
+  </body>
+</html>
